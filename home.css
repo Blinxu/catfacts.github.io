@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'catto';
+    src: url(cookie.ttf);
+}
+
+@font-face {
+    font-family: 'honey';
+    src: url("honeybee.ttf");
+}
+
+.button{
+    background-color:#00D1B2;
+}
+
+#butt{
+    box-shadow: 2px 2px 0px #027462;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'catto';
+    font-size: 150px;
+
+}
+
+.whole{
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+li{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 500;
+}
+
+p{
+    /* position: absolute; */
+    position: absolute;
+    /* top: 850px; */
+    /* margin-left: 80vh; */
+    top: 850px;
+    width: 100%;
+    text-align:center;
+    font-weight: 1000;
+    border-radius: 10px;
+    padding-inline: 10px;
+}
